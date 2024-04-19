@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@stitches/core": "^1.2.8",
+    "@stitches/react": "^1.2.8"
+  }
+}
