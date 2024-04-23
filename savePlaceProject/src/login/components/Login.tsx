@@ -1,10 +1,10 @@
-import {Flex} from "@/commons/flex/components/Flex.tsx";
+import {Flex} from "@/commons/flex/Flex.tsx";
 
 export const Login = () => {
     return (
-        <Flex width={30} fullWidth css={{}}>
-            <Flex >
-                <button>
+        <Flex width={430}>
+            <Flex center fullWidth>
+                <button style={{ width: 100}}>
                     로그인
                 </button>
             </Flex>

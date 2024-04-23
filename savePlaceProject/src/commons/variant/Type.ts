@@ -1,7 +1,7 @@
-import * as Stitches from '@stitches/core';
-import { FlexBasis } from '@/commons/variant/Index.ts';
+import * as Stitches from '@stitches/react';
+import { BasisFlexVariant } from '@/commons/variant/index.ts';
 
-type BasisFlex = Stitches.VariantProps<typeof FlexBasis>
+type BasisFlexStyle = Stitches.VariantProps<typeof BasisFlexVariant>
 
-export type { BasisFlex }
+export type { BasisFlexStyle }
 

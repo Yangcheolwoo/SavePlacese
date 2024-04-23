@@ -1,8 +1,9 @@
 import React, { HTMLAttributes, PropsWithChildren } from 'react';
 import { styled } from '@stitches/react';
-import { BasisFlexProps } from '@/commons/flex/types/Flex.type.ts';
+import { BasisFlexProps } from '@/commons/flex/Flex.type.ts';
+import { BasisFlexVariant } from '@/commons/variant';
 
-const FlexBox = React.forwardRef<HTMLDivElement,PropsWithChildren<BasisFlexProps> & HTMLAttributes<HTMLDivElement>>(
+const FlexBox = React.forwardRef<HTMLDivElement,PropsWithChildren<BasisFlexProps & HTMLAttributes<HTMLDivElement>>>(
     ({
       gap,
       padding,style,height,width,children, className
@@ -18,7 +19,7 @@ const FlexBox = React.forwardRef<HTMLDivElement,PropsWithChildren<BasisFlexProps
 )});
 FlexBox.displayName = 'FlexBox';
 
-const Flex = styled(FlexBox);
+const Flex = styled(FlexBox,BasisFlexVariant);
 
-export {Flex}
+export  { Flex }
 

@@ -1,7 +1,6 @@
-import { css } from '@stitches/core';
+import { css } from '@stitches/react';
 
-
-export const FlexBasis = css({
+export const BasisFlexVariant = css({
   display: 'flex',
   alignItems : 'flex-start',
   justifyContent: 'flex-start',
@@ -53,4 +52,5 @@ export const FlexBasis = css({
       }
     }
   }
-})
+});
+
